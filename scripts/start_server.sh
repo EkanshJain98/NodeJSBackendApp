@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /Mybackend
+cd /root/mybackend
 pm2 start app.js
