@@ -1,0 +1,12 @@
+version: 0.2
+env:
+  parameter-store:
+    MONGO_ENDPOINT: /EKANSH/MONGO_ENDPOINT
+
+phases:
+    build:
+       commands:
+         - sed -i 's/localhost/'$MONGO_ENDPOINT'/' Mybackend/app.js 
+artifacts:
+  files:
+    - '**/*'

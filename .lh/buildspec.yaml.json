@@ -1,0 +1,18 @@
+{
+    "sourceFile": "buildspec.yaml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1626693382327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1626693382327,
+            "name": "Commit-0",
+            "content": "version: 0.2\nenv:\n  parameter-store:\n    MONGO_ENDPOINT: /EKANSH/MONGO_ENDPOINT\n\nphases:\n    build:\n       commands:\n         - sed -i 's/localhost/'$MONGO_ENDPOINT'/' Mybackend/app.js \nartifacts:\n  files:\n    - '**/*'"
+        }
+    ]
+}
