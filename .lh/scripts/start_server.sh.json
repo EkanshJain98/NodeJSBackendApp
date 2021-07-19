@@ -1,0 +1,18 @@
+{
+    "sourceFile": "scripts/start_server.sh",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1626697101651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1626697101651,
+            "name": "Commit-0",
+            "content": "#!/bin/bash\ncd /Mybackend\nsudo npm start"
+        }
+    ]
+}

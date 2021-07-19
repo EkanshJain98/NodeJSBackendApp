@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1626693382327,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1626695874446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n \n phases:\n     build:\n        commands:\n+         - npm install\n          - sed -i 's/localhost/'$MONGO_ENDPOINT'/' Mybackend/app.js \n artifacts:\n   files:\n     - '**/*'\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1626693382327,
