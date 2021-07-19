@@ -1,0 +1,18 @@
+{
+    "sourceFile": "appspec.yml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1626697453832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1626697453832,
+            "name": "Commit-0",
+            "content": "version: 0.0\nos: linux\nfiles:\n  - source: /Mybackend\n    destination: /\nhooks:\n  ApplicationStart:\n     - location: scripts/start_server.sh\n       timeout: 300\n       runas: ubuntu"
+        }
+    ]
+}
