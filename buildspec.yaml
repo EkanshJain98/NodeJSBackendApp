@@ -6,6 +6,7 @@ env:
 phases:
     build:
        commands:
+         - cd /root/Mybackend
          - npm install
          - sed -i 's/localhost/'$MONGO_ENDPOINT'/' Mybackend/app.js 
 artifacts:
