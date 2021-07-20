@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /Mybackend
-    destination: /
+  - source: /
+    destination: /root/Mybackend
 hooks:
   ApplicationStart:
      - location: scripts/start_server.sh
        timeout: 300
-       runas: ubuntu
+       runas: root
